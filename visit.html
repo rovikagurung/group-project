@@ -1,0 +1,167 @@
+<!DOCTYPe html>
+	<html>
+		<head>
+			<title> Visit Page </title>
+			<!-- CSS file -->
+			<link href="layout.css" rel="stylesheet" type="text/css">
+			<link href="form.css" rel="stylesheet" type="text/css">
+			<link href="footer.css" rel="stylesheet" type="text/css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		</head>
+
+			<body>
+				<nav>
+				<div class = "header-wrapper">
+					<div class = "wrapper">
+						<div class = "nav-bar">
+							<div class = "nav-left">
+								<div class = "logo">
+									<a href="logo-image">
+										<img src = "Menu.png" alt ="logo">
+									</a>
+								</div>			
+							</div>
+
+							<div class = "nav-right">
+								<div class ="right-top">
+									<div class = "top-menu">
+										<ul>
+											<li class = "dark-menu"><a href="#" class = "bold">Student life</a></li>
+											<li class = "dark-menu"><a href="#" class = "bold">Alumi</a></li>
+											<li class = "dark-menu"><a href="#" class = "bold">Extra curricular</a></li>
+											<li class = "dark-menu"><a href="#" class = "bold">About</a></li>
+											<li class = "dark-menu"><a href="#" class = "bold">Contact</a></li>	
+
+										<div class = "search_bar">
+											<div class = "search">
+												<form action="/Search" method="GET" class="showit">
+							                	<input type="text" name="q" value="" placeholder="Search...">
+							            		</form>
+											</div>	
+										</div>	
+										</ul>
+									</div>
+
+									<div class ="right-bottom">
+										<div class = "bottom-menu">
+											<ul>
+												<li class = "dark-menu"><a href="#home" class = "bold">Home</a></li>
+												<li class = "dark-menu"><a href="#courses" class = "bold">Course</a></li>
+												<li class = "dark-menu"><a href="#news" class = "bold">News</a></li>
+												<li class = "dark-menu"><a href="#events" class = "bold">Events</a></li>
+												<li class = "dark-menu"><a href="apply.html" class = "bold">Apply</a></li>
+												<li class = "dark-menu"><a href="visit.html" class = "bold">Visit</a></li>
+												<li class= "dark menu"><a href = "login">Login</a>
+
+											<div class = "sub-login">
+												<ul>
+													<li><a href="#">STUDENT</a></li>
+													<li><a href="#"></a>STAFF</li>
+												</ul>
+											</div>
+												</li>
+											</ul>
+										</div> 
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+
+				<section>
+
+					<form>
+						<b>Visitor application:</b>
+
+          					<!-- <div class="status">
+            					<input type="radio" value="none" id="radio_1" name="status">
+            					<label for="radio_1" class="radio"><span>Mr</span></label>
+            					<input type="radio" value="none" id="radio_2" name="status">
+            					<label for="radio_1" class="radio"><span>Mrs</span></label>
+            					<input type="radio" value="none" id="radio_2" name="status">
+            					<label for="radio_2" class="radio"><span>Miss</span></label>
+          					</div>		 -->				
+
+						 	 <div class="visitor">
+
+         					 <p>Full Name</p>
+
+        					 	<div class="name-item">
+         					  	 <input type="text" name="first" placeholder="First Name" size="10" required="required">
+         					  	 <input type="text" name="last" placeholder="Last Name" size="10" required="required">
+          						</div>
+
+       						</div>
+
+       						<div class="visitor">
+          						<p>Address</p>
+          						<input type="text" name="name" placeholder="Street address" size="40" required="required">
+          					</div>
+          					<div class="visitor">
+          						<p>Email</p>
+          						<input type="email" name="email" required="required" placeholder="Email address" multiple >
+          					</div>
+          					<div class="visitor">
+          						<p>Phone Number</p>
+        						<input type="tel" name="name" required="required" maxlength="13" placeholder="Contact no.">
+        					</div>
+
+          					<div class="visitor">
+        						<div class="dates">
+         							<p>Date of visit</p>
+          							<input type="date" name="visitdate" required="required">
+          						</div>
+          					</div>
+
+          					<div class="visitor">
+          						<p>Your porpose of visit</p>
+          						<textarea rows="3"></textarea>
+          					</div>
+
+          					<div class="btn">
+          						<button type="submit">Apply</button>
+        					</div>
+
+					</form>
+
+				</section>
+				<footer>
+                    <div class="down item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#courses">Course</a></li>
+                            <li><a href="#news">News</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="apply.html">Apply</a></li>
+                            <li><a href="visit.html">Visit</a></li>
+                        </ul>
+                    </div>
+                    <div class="aside item">
+                        <h3>About</h3>
+                        <ul>
+                        	<li><a href="#">AboutUs</a></li>
+                            <li><a href="#">Student Life</a></li>
+                            <li><a href="#">Alumi</a></li>
+                            <li><a href="#">Extra Curricular</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                  
+                    <div class="logobio">
+                        <img class="logodown" src="Menu.png" alt="Logo of Woodland University College">
+                        <b>Belive, belong, become.</b>
+                        <div class="logo_img">
+
+							<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+							<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+							<a href="https://www.google.com" class="fa fa-google"></a>
+							
+						</div>
+                    </div>
+        	</footer>
+			</body>
+	</html>
