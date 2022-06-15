@@ -3,8 +3,8 @@
 		<head>
 			<title> Apply Page </title>
 			<!-- CSS file -->
+			<link href="formapply.css" rel="stylesheet" type="text/css">
 			<link href="layout.css" rel="stylesheet" type="text/css">
-			<link href="form.css" rel="stylesheet" type="text/css">
 			<link href="footer.css" rel="stylesheet" type="text/css">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		</head>
@@ -32,14 +32,9 @@
 											<li class = "dark-menu"><a href="#" class = "bold">Extra curricular</a></li>
 											<li class = "dark-menu"><a href="#" class = "bold">About</a></li>
 											<li class = "dark-menu"><a href="#" class = "bold">Contact</a></li>	
-
-										<div class = "search_bar">
-											<div class = "search">
-												<form action="/Search" method="GET" class="showit">
-							                	<input type="text" name="q" value="" placeholder="Search...">
-							            		</form>
-											</div>	
-										</div>	
+											<li>
+											<input type="text" placeholder="search..">
+											</li>
 										</ul>
 									</div>
 
@@ -72,94 +67,96 @@
 			</nav>
 
 
-			<section>
-
-				<form>
+			<div class="apply">
+				<div class="applyform">
 					<h2>Online Application Form:</h2>
-					<br>
 
-					<div class="visitor">
+					<form>
 
-						<p> Full Name</p>
-						<input type="text" name="fullname" required="required" placeholder="Full Name" size="10">
-						<input type="text" name="lastname" required="required" placeholder="Last Name" size="10">
+						<div class="visitor">
 
-					</div>
+							<p> Full Name</p>
+							<input type="text" name="fullname" required="required" placeholder="Full Name" size="10">
+							<input type="text" name="lastname" required="required" placeholder="Last Name" size="10">
 
-					<div class="visitor">
-        				<div class="dates">
-         					<p>Date of Birth</p>
-          					<input type="date" name="birthdate" required="required">
-          				</div>
-          			</div>
+						</div>
 
-					<div class="visitor">
+						<div class="visitor">
+	        				<div class="dates">
+	         					<p>Date of Birth</p>
+	          					<input type="date" name="birthdate" required="required">
+	          				</div>
+	          			</div>
 
-						<p>Address</p>
-						<input id="width" type="text" name="address" required="required" placeholder="Address" size="10">
+						<div class="visitor">
 
-					</div>
-
-					<div class="visitor">
-
-						<p> Email </p>
-						<input id="width" type="Email" id="emali" name="email" required="required" placeholder="Email">
-
-					</div>
-
-					<div class="visitor">
-
-						<p>Phone Number</p> 
-						<input type="tel" name="phone" id="phone" placeholder="Contact no." required="required">
-					<br>
-
-					</div>
-
-					<div class="visitor">
-
-						<p>Course:</p>
-							<select name="course" id="course">
-								<option value="BSc Computing">BSc Computing</option>
-								<option value="BSc Software Engineering">BSc Software Engineering</option>
-								<option value="BSc Computer Network Engineering">BSc Computer Network Engineering</option>
-								<option value="MSc Computing">MSc Computing</option>
-							</select>
+							<p>Address</p>
+							<input id="width" type="text" name="address" required="required" placeholder="Address" size="10">
 
 						</div>
 
 						<div class="visitor">
 
-							<p>Latest Qualification:</p>
-							<input type="text" name="qualification" required="required" placeholder="Qualification">
-						
-						</div>
-
-						<div class="visitor">
-
-							<p> College Information</p>
-							<input type="text" name="College Name" required="required" placeholder="College Name">
-							<input type="text" name="grade" required="required" placeholder="Grade">
-							<input type="tel" name="College number" required="required" placeholder="College Contact no.">
+							<p> Email </p>
+							<input id="width" type="Email" id="emali" name="email" required="required" placeholder="Email">
 
 						</div>
 
 						<div class="visitor">
 
-							<p>Parents Info:</p>
-							<input type="text" name="fathername" required="required" placeholder="Father's Name">
-							<input type="tel" name="father'snumber" required="required" placeholder="Father's Contact no.">
-							<br>
-							<input type="text" name="mothername" required="required" placeholder="Mother's Name">
-							<input type="tel" name="Mother'snumber" required="required" placeholder="Mother's Contact no.">
+							<p>Phone Number</p> 
+							<input type="tel" name="phone" id="phone" placeholder="Contact no." required="required">
+						<br>
 
 						</div>
 
-						<div class="btn">
-							<button type="submit">Apply</button>
-						</div>
-						
+						<div class="visitor">
+
+							<p>Course:</p>
+								<select name="course" id="course">
+									<option value="BSc Computing">BSc Computing</option>
+									<option value="BSc Software Engineering">BSc Software Engineering</option>
+									<option value="BSc Computer Network Engineering">BSc Computer Network Engineering</option>
+									<option value="MSc Computing">MSc Computing</option>
+								</select>
+
+							</div>
+
+							<div class="visitor">
+
+								<p>Latest Qualification:</p>
+								<input type="text" name="qualification" required="required" placeholder="Qualification">
+							
+							</div>
+
+							<div class="visitor">
+
+								<p> College Information</p>
+								<input type="text" name="College Name" required="required" placeholder="College Name">
+								<input type="text" name="grade" required="required" placeholder="Grade">
+								<input type="tel" name="College number" required="required" placeholder="College Contact no.">
+
+							</div>
+
+							<div class="visitor">
+
+								<p>Parents Info:</p>
+								<input type="text" name="fathername" required="required" placeholder="Father's Name">
+								<input type="tel" name="father'snumber" required="required" placeholder="Father's Contact no.">
+								<br>
+								<input type="text" name="mothername" required="required" placeholder="Mother's Name">
+								<input type="tel" name="Mother'snumber" required="required" placeholder="Mother's Contact no.">
+
+							</div>
+
+							<div class="btn">
+								<button type="submit">Apply</button>
+							</div>
+							
 					</form>
-				</section>
+				</div>
+			</div>
+
 				<footer>
                     <div class="down item">
                         <h3>Services</h3>

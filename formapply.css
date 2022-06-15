@@ -1,0 +1,92 @@
+.apply{
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.applyform{
+	position: absolute;
+	padding: 100px;
+	top: 200px;
+	width:600px;
+	height: 700px;
+	background-color: #EAF3E8;
+	border-radius: 5px;
+	text-align: left;
+	box-shadow: 0 0 30px 0 #8ebf42;
+	line-height: 30px;
+	font-size: 20px;
+	overflow-x: hiden;
+	overflow-y: auto;
+}
+
+.head{
+	padding: 10px;
+}
+
+input, select, textarea {
+ 	margin-bottom: 5px;
+  	border: 1px solid #ccc;
+  	border-radius: 3px;
+}
+
+input {
+      width: 200px;
+      padding: 5px;
+      padding: 5px;
+      }
+
+select {
+      width: 200px;
+      padding: 7px 0;
+      background: transparent;
+      }
+
+textarea {
+      width: 300px;
+      padding: 5px;
+      }
+
+input #width{
+	width: 200px;
+}
+
+.visitor:hover p, .status:hover p, .status label:hover, input:hover::placeholder {
+      color: #8ebf42;
+      }
+
+.visitor input:hover, .visitor textarea:hover {
+      border: 1px solid transparent;
+      box-shadow: 0 0 8px 0 #8ebf42;
+      color: #8ebf42;
+      }
+
+.visitor {
+      position: relative;
+      margin: 10px 0;
+      }
+
+input[type="date"]::-webkit-inner-spin-button {
+      display: none;
+      }
+
+button {
+      width: 120px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      background: #8ebf42;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+}
+
+.btn{
+	text-align: center;
+	margin-top: 2px;
+}
+
+button:hover {
+      background: #82b534;
+}
